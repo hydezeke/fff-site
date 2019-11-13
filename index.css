@@ -1,0 +1,105 @@
+#page td {
+    padding:0; margin:0;
+ }
+ #page {
+    border-collapse: collapse;
+ }
+ body{
+     background: url("images/dc-bg.png");
+     background-repeat: repeat;
+     background-size: 100%;
+ }
+ a{
+     color:white;
+     text-decoration: none;
+ }
+ /*html, body, #page {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}*/
+@font-face {
+    font-family:"2Credits";
+    src: url("fonts/2Credits.ttf");
+}
+body {
+    background-color: black;
+    padding:0px;
+}
+#special-links{
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    text-align: center;
+    font-family:"2Credits",Arial,sans-serif;
+    padding:0;
+    margin-top:0;
+}
+#text-body,#calendar-body{
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    text-align: center;
+    font-family:"2Credits",Arial,sans-serif;
+    padding:0;
+    margin-top:0;
+}
+h3{
+    text-align:left;
+    font-family:"2Credits",Arial,sans-serif;
+    size:20;
+    color:white;
+    margin-bottom:0;
+}
+h4{
+    margin:0 0;
+    padding:0;
+    text-align:left;
+    font-family:"2Credits",Arial,sans-serif;
+    size:17;
+    color:white;
+}
+#text-body{
+    width:20%;
+}
+#calendar-body{
+    width:50%;
+    text-align:right;
+    color:#ffffffaa;
+}
+#game-labels-body{
+    width:30%;
+    text-align:right;
+    color:#ffffffaa;
+    box-shadow: 7px 7px 5px black;
+}
+#center-logo-container{
+    width:20vmax;
+    padding:0;
+    margin:10vmax auto;
+    margin-bottom:15px;
+}
+#center-logo-container-small{
+    width:10vmax;
+    padding:0;
+    margin:10% auto;
+    margin-bottom:15px;
+}
+#game-shrinker{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    border: none !important;
+}
+#game-frame{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+    vertical-align: middle;
+    border-style:dashed;
+    border-color:#ffffff11;
+    border-width:3px;
+}
